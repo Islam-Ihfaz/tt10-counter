@@ -30,12 +30,12 @@ module tt_um_islam_ihfaz_counter (
     // If active, we load the counter output with 4'b0000
         
         if (rst_n == 1'b1) begin
-            counter_out <= #1 4'b0000;
+            counter_out <= 4'b0000;
         end
         
     // If enable is active, then we increment the counter
         else if (enable == 1'b1) begin
-            counter_out <= #1 counter_out + 1;
+            counter_out <= counter_out + 1;
         end
     end
 
