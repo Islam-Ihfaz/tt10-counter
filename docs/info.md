@@ -11,7 +11,7 @@ This Verilog design implements a 4-bit synchronous up-counter with reset and ena
 
 ## How to test
 
-Initialize the clock, reset, and enable signals. First assert the reset and then re-assert the reset. Then start counting by setting the enable = 1. Stop counting by setting enable = 0. After counting ends, end the simulation. See the testbench for more details.
+Initialize the clock, reset, and enable signals. First assert the reset and then de-assert the reset. Then start counting by setting the enable = 1. Stop counting by setting enable = 0. After counting ends, end the simulation. See the testbench for more details.
 
 ## External hardware
 
