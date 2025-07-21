@@ -23,7 +23,7 @@ module tt_um_islam_ihfaz_counter (
     // Make the output as register
     reg [3:0] counter_out;
 
-    always @ (posedge clock)
+    always @ (posedge clk)
     begin : counter // Block Name
     
     // At every rising edge of clock we check if reset is active
